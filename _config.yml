@@ -5,6 +5,7 @@ description: This feed contains application updates for Porthole.
 google_analytics: UA-27275793-17 # Definitely change this
 lang: en
 exclude: ["Rakefile", "glow.rb", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "_config-sample.yml"]
+include: ["_redirects"]
 destination: "_site" # Remember to change this value in the Rakefile as well
 permalink: /:title
 
