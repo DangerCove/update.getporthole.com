@@ -1,0 +1,15 @@
+url: https://update.getporthole.com
+file_host: https://download.getporthole.com
+title: Porthole Release Notes
+description: This feed contains application updates for Porthole.
+google_analytics: UA-27275793-17 # Definitely change this
+lang: en
+exclude: ["Rakefile", "glow.rb", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "_config-sample.yml"]
+destination: "_site" # Remember to change this value in the Rakefile as well
+permalink: /:title
+
+# Glow settings
+download_path: "_site/download" # Don't add a trailing /
+binary_path: ".." # Don't add a trailing /
+beta_indicator: b # Should appear after the short version number: 0.3b
+require_signing: true # Should the app be signed using a private key
